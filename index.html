@@ -489,19 +489,37 @@
         </div>
     </section>
     
-    <!-- Newsletter -->
-    <section class="newsletter-section">
-        <div class="container">
-            <div class="newsletter-content">
-                <h3>Get Monthly Growth Insights</h3>
-                <p>Subscribe to our newsletter for exclusive ecommerce tips and strategies</p>
-                <form class="newsletter-form">
-                    <input type="email" placeholder="Your email address" required>
-                    <button type="submit" class="cta-button">Subscribe</button>
-                </form>
-            </div>
+<!-- Newsletter Section with FormSubmit -->
+<section class="newsletter-section">
+    <div class="container">
+        <div class="newsletter-content">
+            <h3>Get Monthly Growth Insights</h3>
+            <p>Subscribe to our newsletter for exclusive ecommerce tips and strategies</p>
+            
+            <form 
+                class="newsletter-form" 
+                action="https://formsubmit.co/your-email@example.com" 
+                method="POST"
+            >
+                <!-- Required FormSubmit Fields -->
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+                <input type="hidden" name="_template" value="table">
+                
+                <!-- Email Input -->
+                <input 
+                    type="email" 
+                    name="email" 
+                    placeholder="Your email address" 
+                    required
+                >
+                
+                <!-- Submit Button -->
+                <button type="submit" class="cta-button">Subscribe</button>
+            </form>
         </div>
-    </section>
+    </div>
+</section>
     
     <!-- Footer -->
     <footer class="main-footer">
