@@ -599,24 +599,51 @@
         </a>
     </div>
     
-    <!-- Exit Intent Popup -->
-    <div class="exit-popup" id="exit-popup">
-        <div class="popup-content">
-            <button class="close-popup" aria-label="Close popup">
-                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
+    <!-- Exit Intent Popup with FormSubmit -->
+<div class="exit-popup" id="exit-popup">
+    <div class="popup-content">
+        <button class="close-popup" aria-label="Close popup">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+        <h3>Wait! Get Your Free Audit</h3>
+        <p>Before you go, let us analyze your website and send you a free report with actionable growth opportunities.</p>
+        
+        <!-- FormSubmit.co Form -->
+        <form 
+            class="popup-form" 
+            action="https://formsubmit.co/ecomcatlyst@gmail.com" 
+            method="POST"
+        >
+            <!-- Required FormSubmit Fields -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://ecomcatalyst.site">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_subject" value="New Free Audit Request">
+            
+            <!-- Honeypot Spam Filter -->
+            <input type="text" name="_honey" style="display:none">
+            
+            <!-- Visible Form Fields -->
+            <input 
+                type="email" 
+                name="email" 
+                placeholder="Your email address" 
+                required
+            >
+            <input 
+                type="url" 
+                name="website" 
+                placeholder="Website URL (optional)"
+            >
+            <button type="submit" class="cta-button">
+                Get Free Audit
             </button>
-            <h3>Wait! Get Your Free Audit</h3>
-            <p>Before you go, let us analyze your website and send you a free report with actionable growth opportunities.</p>
-            <form class="popup-form">
-                <input type="email" placeholder="Your email address" required>
-                <input type="url" placeholder="Website URL">
-                <button type="submit" class="cta-button">Get Free Audit</button>
-            </form>
-        </div>
+        </form>
     </div>
+</div>
     
     <!-- Page Progress -->
     <div class="page-progress" id="page-progress"></div>
