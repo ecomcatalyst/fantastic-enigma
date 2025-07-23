@@ -1296,3 +1296,10 @@ img {
     max-width: 90px;
   }
 }
+
+/* --- Mobile CTA Button Size Fix --- */
+@media (max-width: 768px) {
+    .cta-button {
+        padding: 8px 16px; /* Smaller padding for mobile */
+    }
+}
