@@ -234,9 +234,10 @@ img {
 }
 
 /* Hero Section */
+/* --- Updated Hero Section --- */
 .hero-section {
-    height: 100vh;
-    min-height: 800px;
+    padding-top: 200px;   /* Space above the content */
+    padding-bottom: 120px; /* Space below the content */
     display: flex;
     align-items: center;
     position: relative;
