@@ -275,40 +275,6 @@ img {
     margin-top: 40px;
 }
 
-.scroll-indicator {
-    position: absolute;
-    bottom: 40px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.scroll-indicator span {
-    display: block;
-    width: 20px;
-    height: 30px;
-    border: 2px solid var(--accent);
-    border-radius: 50px;
-    position: relative;
-}
-
-.scroll-indicator span::before {
-    content: '';
-    position: absolute;
-    top: 5px;
-    left: 50%;
-    width: 4px;
-    height: 8px;
-    background: var(--accent);
-    border-radius: 2px;
-    transform: translateX(-50%);
-    animation: scrollIndicator 2s infinite;
-}
-
-@keyframes scrollIndicator {
-    0% { transform: translate(-50%, 0); opacity: 1; }
-    100% { transform: translate(-50%, 10px); opacity: 0; }
-}
-
 /* Logo Marquee */
 .logo-marquee {
     background: var(--secondary);
