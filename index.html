@@ -29,10 +29,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
 
-    <!-- Add GSAP CDN for animations -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-
     <style>
         .services-grid {
             display: grid; /* Use grid for alignment */
@@ -57,24 +53,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-        }
-
-        /* Animation styles */
-        .fade-in-up {
-            opacity: 0;
-            transform: translateY(30px);
-        }
-        .fade-in-left {
-            opacity: 0;
-            transform: translateX(-30px);
-        }
-        .fade-in-right {
-            opacity: 0;
-            transform: translateX(30px);
-        }
-        .scale-in {
-            opacity: 0;
-            transform: scale(0.8);
         }
     </style>
     <script type="application/ld+json">
@@ -163,11 +141,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="hero-canvas" id="hero-canvas"></div>
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-headline fade-in-up">Create a website that <span class="text-gradient">sells</span></h1>
-                <p class="hero-subheadline fade-in-up">We build high-converting digital experiences and drive international growth for ecommerce brands worldwide.</p>
+                <h1 class="hero-headline">Create a website that <span class="text-gradient">sells</span></h1>
+                <p class="hero-subheadline">We build high-converting digital experiences and drive international growth for ecommerce brands worldwide.</p>
                 <div class="hero-cta">
-                    <a href="#contact" class="cta-button fade-in-up">Get Your Free Audit</a>
-                    <a href="#work" class="secondary-button fade-in-up">See Our Work</a>
+                    <a href="#contact" class="cta-button">Get Your Free Audit</a>
+                    <a href="#work" class="secondary-button">See Our Work</a>
                 </div>
             </div>
         </div>
@@ -228,46 +206,46 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="services-section" id="services">
         <div class="container">
             <div class="section-header">
-                <h2 class="fade-in-up">Our <span class="text-gradient">Services</span></h2>
-                <p class="fade-in-up">Comprehensive solutions to accelerate your ecommerce growth</p>
+                <h2>Our <span class="text-gradient">Services</span></h2>
+                <p>Comprehensive solutions to accelerate your ecommerce growth</p>
             </div>
             <div class="services-grid">
-                <div class="service-card fade-in-up">
+                <div class="service-card">
                     <div class="service-icon">
                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 18L6 22V12L12 6L18 12V22L12 18Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 6V18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                     </div>
                     <h3>Website Development</h3>
                     <p>We build world-class, conversion-focused ecommerce websites on Shopify and other leading platforms. Our focus on user experience (UX) and performance ensures a seamless shopping journey for your customers, wherever they are.</p>
                 </div>
-                <div class="service-card fade-in-up">
+                <div class="service-card">
                     <div class="service-icon">
                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                     </div>
                     <h3>SEO Optimization</h3>
                     <p>Expand your reach with our international SEO services. We drive qualified organic traffic from your target markets worldwide by building a strong technical foundation and content that establishes you as a global authority.</p>
                 </div>
-                <div class="service-card fade-in-up">
+                <div class="service-card">
                     <div class="service-icon">
                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 12H18L15 21L9 3L6 12H2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                     </div>
                     <h3>CRO</h3>
                     <p>Turn more visitors into paying customers. Our Conversion Rate Optimization (CRO) service uses A/B testing, user behavior analysis, and UX improvements to maximize the value of your existing traffic and boost your bottom line.</p>
                 </div>
-                <div class="service-card fade-in-up">
+                <div class="service-card">
                     <div class="service-icon">
                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 8V16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 12H16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                     </div>
                     <h3>Digital Marketing</h3>
                     <p>Achieve profitable growth with targeted PPC campaigns. We manage your advertising spend on platforms like Google Ads and Meta to maximize Return on Ad Spend (ROAS) and drive high-intent traffic directly to your products.</p>
                 </div>
-                <div class="service-card fade-in-up">
+                <div class="service-card">
                     <div class="service-icon">
                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 6L12 13L2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                     </div>
                     <h3>Email Marketing</h3>
                     <p>Build lasting customer relationships and increase lifetime value. We design and implement powerful automated email flows for welcome series, abandoned carts, and post-purchase follow-ups that convert subscribers into loyal fans.</p>
                 </div>
-                <div class="service-card fade-in-up">
+                <div class="service-card">
                     <div class="service-icon">
                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17 8H19C20.1046 8 21 8.89543 21 10V20C21 21.1046 20.1046 22 19 22H5C3.89543 22 3 21.1046 3 20V10C3 8.89543 3.89543 8 5 8H7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 4L12 8L16 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 8V2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                     </div>
@@ -281,11 +259,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="case-studies-section" id="work">
         <div class="container">
             <div class="section-header">
-                <h2 class="fade-in-up">Our <span class="text-gradient">Work</span></h2>
-                <p class="fade-in-up">Real results for ambitious ecommerce brands</p>
+                <h2>Our <span class="text-gradient">Work</span></h2>
+                <p>Real results for ambitious ecommerce brands</p>
             </div>
             <div class="case-studies-grid">
-                <div class="case-study-card fade-in-left">
+                <div class="case-study-card">
                     <div class="case-study-image">
                         <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Fashion Ecommerce Case Study">
                     </div>
@@ -304,7 +282,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <p>Complete Shopify redesign with custom checkout optimization</p>
                     </div>
                 </div>
-                <div class="case-study-card fade-in-up">
+                <div class="case-study-card">
                     <div class="case-study-image">
                         <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Beauty Ecommerce Case Study">
                     </div>
@@ -323,7 +301,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <p>Omnichannel marketing strategy with automated flows</p>
                     </div>
                 </div>
-                <div class="case-study-card fade-in-right">
+                <div class="case-study-card">
                     <div class="case-study-image">
                         <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Home Goods Case Study">
                     </div>
@@ -349,11 +327,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="process-section" id="process">
         <div class="container">
             <div class="section-header">
-                <h2 class="fade-in-up">Our <span class="text-gradient">Process</span></h2>
-                <p class="fade-in-up">A systematic approach to delivering exceptional results</p>
+                <h2>Our <span class="text-gradient">Process</span></h2>
+                <p>A systematic approach to delivering exceptional results</p>
             </div>
             <div class="process-timeline">
-                <div class="timeline-item fade-in-left">
+                <div class="timeline-item">
                     <div class="timeline-icon">
                         <span>1</span>
                     </div>
@@ -362,7 +340,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <p>Deep dive into your business, goals, and challenges</p>
                     </div>
                 </div>
-                <div class="timeline-item fade-in-right">
+                <div class="timeline-item">
                     <div class="timeline-icon">
                         <span>2</span>
                     </div>
@@ -371,7 +349,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <p>Custom roadmap tailored to your unique needs</p>
                     </div>
                 </div>
-                <div class="timeline-item fade-in-left">
+                <div class="timeline-item">
                     <div class="timeline-icon">
                         <span>3</span>
                     </div>
@@ -380,7 +358,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <p>Flawless implementation with attention to detail</p>
                     </div>
                 </div>
-                <div class="timeline-item fade-in-right">
+                <div class="timeline-item">
                     <div class="timeline-icon">
                         <span>4</span>
                     </div>
@@ -389,7 +367,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <p>Continuous testing and improvement</p>
                     </div>
                 </div>
-                <div class="timeline-item fade-in-left">
+                <div class="timeline-item">
                     <div class="timeline-icon">
                         <span>5</span>
                     </div>
@@ -405,11 +383,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="testimonials-section" id="testimonials">
         <div class="container">
             <div class="section-header">
-                <h2 class="fade-in-up">Client <span class="text-gradient">Success</span></h2>
-                <p class="fade-in-up">Don't just take our word for it</p>
+                <h2>Client <span class="text-gradient">Success</span></h2>
+                <p>Don't just take our word for it</p>
             </div>
             <div class="testimonials-grid">
-                <div class="testimonial-card fade-in-up">
+                <div class="testimonial-card">
                     <div class="testimonial-content">
                         <p>"Ecom Catalyst transformed our online store. Within 3 months, our revenue increased by 180% with their conversion optimization strategies. Their team is incredibly knowledgeable and results-driven."</p>
                     </div>
@@ -418,7 +396,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <p>CEO, Luxe Beauty Co.</p>
                     </div>
                 </div>
-                <div class="testimonial-card fade-in-up">
+                <div class="testimonial-card">
                     <div class="testimonial-content">
                         <p>"The website they built for us outperforms our old one in every metric. Page speed, conversions, SEO - everything improved dramatically. They're now our go-to digital growth partner."</p>
                     </div>
@@ -427,7 +405,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <p>Founder, ActiveGear</p>
                     </div>
                 </div>
-                <div class="testimonial-card fade-in-up">
+                <div class="testimonial-card">
                     <div class="testimonial-content">
                         <p>"Working with Ecom Catalyst was a game-changer. Their email flow setup alone generated $50k in additional monthly revenue. Their technical expertise is unmatched in the ecommerce space."</p>
                     </div>
@@ -443,11 +421,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="faq-section">
         <div class="container">
             <div class="section-header">
-                <h2 class="fade-in-up">Frequently <span class="text-gradient">Asked</span> Questions</h2>
-                <p class="fade-in-up">Everything you need to know</p>
+                <h2>Frequently <span class="text-gradient">Asked</span> Questions</h2>
+                <p>Everything you need to know</p>
             </div>
             <div class="faq-accordion">
-                <div class="faq-item fade-in-up">
+                <div class="faq-item">
                     <button class="faq-question">
                         <span>What makes Ecom Catalyst different from other agencies?</span>
                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -456,7 +434,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <p>We combine deep technical expertise with proven growth strategies. Unlike generalist agencies, we specialize exclusively in ecommerce, which means we understand the unique challenges and opportunities of online stores. Our approach is data-driven, focusing on measurable results rather than vanity metrics.</p>
                     </div>
                 </div>
-                <div class="faq-item fade-in-up">
+                <div class="faq-item">
                     <button class="faq-question">
                         <span>How long does it take to see results?</span>
                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -465,7 +443,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <p>This depends on your specific goals and current situation. For website development projects, we typically deliver within 4-8 weeks. SEO results usually start becoming noticeable in 3-6 months, while conversion rate optimization and paid media campaigns can show improvements within the first 30 days.</p>
                     </div>
                 </div>
-                <div class="faq-item fade-in-up">
+                <div class="faq-item">
                     <button class="faq-question">
                         <span>What platforms do you work with?</span>
                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -474,7 +452,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <p>We're platform-agnostic but have extensive experience with Shopify, WooCommerce, Magento, and custom solutions. We'll recommend the best platform for your specific business needs based on factors like scale, technical requirements, and budget.</p>
                     </div>
                 </div>
-                <div class="faq-item fade-in-up">
+                <div class="faq-item">
                     <button class="faq-question">
                         <span>How do you approach international SEO and marketing?</span>
                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -483,7 +461,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <p>International SEO involves more than just standard optimization. We focus on a global-first technical setup, including the use of a Content Delivery Network (CDN) for worldwide speed. Our strategy includes international keyword research to understand regional search behavior and, when necessary, implementing technical solutions like hreflang tags for multi-language or multi-region websites to ensure the right version of your site ranks in the right country.</p>
                     </div>
                 </div>
-                <div class="faq-item fade-in-up">
+                <div class="faq-item">
                     <button class="faq-question">
                         <span>Do you offer ongoing support?</span>
                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -492,7 +470,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <p>Yes, we offer flexible retainer packages for ongoing optimization, maintenance, and growth services. Ecommerce success requires continuous improvement, and we partner with our clients for long-term results.</p>
                     </div>
                 </div>
-                <div class="faq-item fade-in-up">
+                <div class="faq-item">
                     <button class="faq-question">
                         <span>How do you measure success?</span>
                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -508,7 +486,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section class="contact-section" id="contact">
     <div class="container">
         <div class="contact-grid">
-            <div class="contact-content fade-in-left">
+            <div class="contact-content">
                 <h2>Ready to <span class="text-gradient">grow</span> your ecommerce business?</h2>
                 <p>Get in touch for a free consultation and audit. We'll analyze your current setup and identify the biggest opportunities for growth.</p>
                 <div class="contact-info">
@@ -532,7 +510,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
             </div>
-            <form class="contact-form fade-in-right" action="https://script.google.com/macros/s/AKfycbys9IUmhEPq6aJX_RkDSjc7Fd1K1vNd6819L80OR01V440fn6NuiQyLQ48vfqm9ZyxNag/exec" method="POST">
+            <form class="contact-form" action="https://script.google.com/macros/s/AKfycbys9IUmhEPq6aJX_RkDSjc7Fd1K1vNd6819L80OR01V440fn6NuiQyLQ48vfqm9ZyxNag/exec" method="POST">
                 <div class="form-group">
                     <input type="text" name="name" placeholder="Your Name" required>
                 </div>
@@ -568,7 +546,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
 <section class="newsletter-section">
     <div class="container">
-        <div class="newsletter-content fade-in-up">
+        <div class="newsletter-content">
             <h3>Get Monthly Growth Insights</h3>
             <p>Subscribe to our newsletter for exclusive ecommerce tips and strategies</p>
             <form class="newsletter-form" action="https://formsubmit.co/ecomcatlyst@gmail.com" method="POST">
@@ -585,11 +563,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <footer class="main-footer">
         <div class="container">
             <div class="footer-grid">
-                <div class="footer-col fade-in-up">
+                <div class="footer-col">
                     <h4>Ecom Catalyst</h4>
                     <p>We create websites that sell. Premium digital growth services for ecommerce businesses.</p>
                 </div>
-                <div class="footer-col fade-in-up">
+                <div class="footer-col">
                     <h4>Services</h4>
                     <ul>
                         <li><a href="#">Website Development</a></li>
@@ -599,7 +577,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <li><a href="#">Email & SMS Flows</a></li>
                     </ul>
                 </div>
-                <div class="footer-col fade-in-up">
+                <div class="footer-col">
                     <h4>Company</h4>
                     <ul>
                         <li><a href="#work">Our Work</a></li>
@@ -608,7 +586,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
-                <div class="footer-col fade-in-up">
+                <div class="footer-col">
                     <h4>Contact</h4>
                     <ul>
                         <li><a href="tel:+918985738956">+91 89857 38956</a></li>
@@ -650,189 +628,5 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script src="assets/js/gsap.min.js"></script>
     <script src="assets/js/three.min.js"></script>
     <script src="assets/js/main.js"></script>
-    
-    <!-- Add GSAP Animations Script -->
-    <script>
-        // Wait for page to load
-        document.addEventListener('DOMContentLoaded', function() {
-            // Register ScrollTrigger plugin
-            gsap.registerPlugin(ScrollTrigger);
-            
-            // Hero section animations
-            gsap.to('.hero-headline', {
-                duration: 1,
-                y: 0,
-                opacity: 1,
-                ease: "power3.out"
-            });
-            
-            gsap.to('.hero-subheadline', {
-                duration: 1,
-                y: 0,
-                opacity: 1,
-                delay: 0.3,
-                ease: "power3.out"
-            });
-            
-            gsap.to('.hero-cta .cta-button', {
-                duration: 0.8,
-                y: 0,
-                opacity: 1,
-                delay: 0.6,
-                ease: "back.out(1.7)"
-            });
-            
-            gsap.to('.hero-cta .secondary-button', {
-                duration: 0.8,
-                y: 0,
-                opacity: 1,
-                delay: 0.8,
-                ease: "back.out(1.7)"
-            });
-            
-            // Services section animations
-            gsap.utils.toArray('.service-card').forEach((card, index) => {
-                gsap.to(card, {
-                    scrollTrigger: {
-                        trigger: card,
-                        start: "top 80%",
-                        toggleActions: "play none none reverse"
-                    },
-                    duration: 1,
-                    y: 0,
-                    opacity: 1,
-                    delay: index * 0.1,
-                    ease: "power2.out"
-                });
-            });
-            
-            // Case studies animations
-            gsap.utils.toArray('.case-study-card').forEach((card) => {
-                gsap.to(card, {
-                    scrollTrigger: {
-                        trigger: card,
-                        start: "top 85%",
-                        toggleActions: "play none none reverse"
-                    },
-                    duration: 1,
-                    x: 0,
-                    y: 0,
-                    opacity: 1,
-                    ease: "power2.out"
-                });
-            });
-            
-            // Process timeline animations
-            gsap.utils.toArray('.timeline-item').forEach((item, index) => {
-                gsap.to(item, {
-                    scrollTrigger: {
-                        trigger: item,
-                        start: "top 90%",
-                        toggleActions: "play none none reverse"
-                    },
-                    duration: 1,
-                    x: 0,
-                    opacity: 1,
-                    delay: index * 0.2,
-                    ease: "power2.out"
-                });
-            });
-            
-            // Testimonials animations
-            gsap.utils.toArray('.testimonial-card').forEach((card, index) => {
-                gsap.to(card, {
-                    scrollTrigger: {
-                        trigger: card,
-                        start: "top 85%",
-                        toggleActions: "play none none reverse"
-                    },
-                    duration: 1,
-                    y: 0,
-                    opacity: 1,
-                    delay: index * 0.15,
-                    ease: "power2.out"
-                });
-            });
-            
-            // FAQ animations
-            gsap.utils.toArray('.faq-item').forEach((item, index) => {
-                gsap.to(item, {
-                    scrollTrigger: {
-                        trigger: item,
-                        start: "top 90%",
-                        toggleActions: "play none none reverse"
-                    },
-                    duration: 0.8,
-                    y: 0,
-                    opacity: 1,
-                    delay: index * 0.1,
-                    ease: "power2.out"
-                });
-            });
-            
-            // Contact section animations
-            gsap.to('.contact-content', {
-                scrollTrigger: {
-                    trigger: '.contact-section',
-                    start: "top 80%",
-                    toggleActions: "play none none reverse"
-                },
-                duration: 1,
-                x: 0,
-                opacity: 1,
-                ease: "power2.out"
-            });
-            
-            gsap.to('.contact-form', {
-                scrollTrigger: {
-                    trigger: '.contact-section',
-                    start: "top 80%",
-                    toggleActions: "play none none reverse"
-                },
-                duration: 1,
-                x: 0,
-                opacity: 1,
-                delay: 0.2,
-                ease: "power2.out"
-            });
-            
-            // Newsletter animation
-            gsap.to('.newsletter-content', {
-                scrollTrigger: {
-                    trigger: '.newsletter-section',
-                    start: "top 90%",
-                    toggleActions: "play none none reverse"
-                },
-                duration: 1,
-                y: 0,
-                opacity: 1,
-                ease: "power2.out"
-            });
-            
-            // Footer animations
-            gsap.utils.toArray('.footer-col').forEach((col, index) => {
-                gsap.to(col, {
-                    scrollTrigger: {
-                        trigger: '.main-footer',
-                        start: "top 90%",
-                        toggleActions: "play none none reverse"
-                    },
-                    duration: 0.8,
-                    y: 0,
-                    opacity: 1,
-                    delay: index * 0.1,
-                    ease: "power2.out"
-                });
-            });
-            
-            // Logo marquee animation
-            gsap.to('.marquee-track', {
-                x: '-50%',
-                ease: 'none',
-                duration: 20,
-                repeat: -1
-            });
-        });
-    </script>
 </body>
 </html>
